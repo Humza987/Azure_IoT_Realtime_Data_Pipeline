@@ -222,5 +222,3 @@ CREATE TABLE Telemetry (
 ---
 
 ![Power BI Dashboard Implementation](docs/Power_BI_Dashboard.png)
-
----
