@@ -224,11 +224,3 @@ CREATE TABLE Telemetry (
 ![Power BI Dashboard Implementation](docs/Power_BI_Dashboard.png)
 
 ---
-
-## Professional Summary for CV/Interview Use
-
-**Azure IoT Real-time Pipeline Engineer**
-* Architected and implemented end-to-end Azure IoT streaming pipeline processing 500+ device telemetry points with sub-second latency
-* Integrated Stream Analytics with machine learning anomaly detection for real-time alerting and business intelligence
-* Developed .NET 8 Azure Functions for Power BI streaming integration with incremental data processing and state management
-* Implemented Infrastructure as Code using Terraform for reproducible cloud resource deployment and management
