@@ -1,0 +1,15 @@
+# Learn more about the language in documentation:
+# https://aka.ms/dataexporttransformation
+{
+    schema: "default@v1",
+    applicationId: .applicationId,
+    deviceId: .device.id,
+    templateId: .device.templateId,
+    messageSource: .messageSource,
+    enqueuedTime: .enqueuedTime,
+    telemetry: .telemetry | map({ key: .name, value: .value }) | from_entries,
+    messageProperties: .messageProperties,
+    enrichments: .enrichments,
+    component: .component,
+    module: .module
+}

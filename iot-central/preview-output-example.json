@@ -1,0 +1,20 @@
+{
+    "applicationId": "86c928d2-585e-4e2b-8a6d-ffee8d7e0233",
+    "component": "sensors",
+    "deviceId": "hoyp69aa69xt",
+    "enqueuedTime": "2009-10-10T00:49:49.432486656Z",
+    "enrichments": null,
+    "messageProperties": null,
+    "messageSource": "telemetry",
+    "module": null,
+    "schema": "default@v1",
+    "telemetry": {
+        "accelerometer": null,
+        "barometer": 2.3652105113135073e+305,
+        "battery": -570335521,
+        "geolocation": null,
+        "gyroscope": null,
+        "magnetometer": null
+    },
+    "templateId": "dtmi:azureiot:y6bebw2sg"
+}

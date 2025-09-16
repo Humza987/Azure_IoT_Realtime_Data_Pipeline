@@ -1,0 +1,114 @@
+{
+    "applicationId": "86c928d2-585e-4e2b-8a6d-ffee8d7e0233",
+    "enqueuedTime": "2009-10-10T00:49:49.432486656Z",
+    "messageSource": "telemetry",
+    "component": "sensors",
+    "telemetry": [
+        {
+            "name": "battery",
+            "value": -570335521
+        },
+        {
+            "name": "accelerometer"
+        },
+        {
+            "name": "gyroscope"
+        },
+        {
+            "name": "magnetometer"
+        },
+        {
+            "name": "barometer",
+            "value": 2.3652105113135073e+305
+        },
+        {
+            "name": "geolocation"
+        }
+    ],
+    "device": {
+        "id": "hoyp69aa69xt",
+        "name": "solid state panel",
+        "templateId": "dtmi:azureiot:y6bebw2sg",
+        "templateName": "IoT Plug and Play mobile",
+        "properties": {
+            "reported": [
+                {
+                    "name": "writeableProp",
+                    "value": "Cum aut dolores quo blanditiis."
+                },
+                {
+                    "name": "readOnlyProp",
+                    "value": "Inventore odio ut dolorem suscipit ad minus quaerat."
+                },
+                {
+                    "id": "dtmi:azure:DeviceManagement:DeviceInformation:manufacturer;1",
+                    "name": "manufacturer",
+                    "component": "device_info",
+                    "value": "Nulla aut iusto tenetur."
+                },
+                {
+                    "id": "dtmi:azure:DeviceManagement:DeviceInformation:model;1",
+                    "name": "model",
+                    "component": "device_info",
+                    "value": "Ullam aut eum vel dolor non."
+                },
+                {
+                    "id": "dtmi:azure:DeviceManagement:DeviceInformation:swVersion;1",
+                    "name": "swVersion",
+                    "component": "device_info",
+                    "value": "Nostrum quam aspernatur earum."
+                },
+                {
+                    "id": "dtmi:azure:DeviceManagement:DeviceInformation:osName;1",
+                    "name": "osName",
+                    "component": "device_info",
+                    "value": "Consectetur ullam illum iste ut voluptatum."
+                },
+                {
+                    "id": "dtmi:azure:DeviceManagement:DeviceInformation:processorArchitecture;1",
+                    "name": "processorArchitecture",
+                    "component": "device_info",
+                    "value": "Cupiditate fuga ut assumenda."
+                },
+                {
+                    "id": "dtmi:azure:DeviceManagement:DeviceInformation:processorManufacturer;1",
+                    "name": "processorManufacturer",
+                    "component": "device_info",
+                    "value": "Perferendis et et voluptas ut et autem."
+                },
+                {
+                    "id": "dtmi:azure:DeviceManagement:DeviceInformation:totalStorage;1",
+                    "name": "totalStorage",
+                    "component": "device_info",
+                    "value": -3615050631940779000
+                },
+                {
+                    "id": "dtmi:azure:DeviceManagement:DeviceInformation:totalMemory;1",
+                    "name": "totalMemory",
+                    "component": "device_info",
+                    "value": -423652596992268300
+                }
+            ]
+        },
+        "cloudProperties": [],
+        "simulated": true,
+        "approved": true,
+        "blocked": false,
+        "provisioned": true,
+        "organizations": [
+            "leaf-organization"
+        ],
+        "organizationPaths": [
+            [
+                {
+                    "id": "root-organization",
+                    "displayName": "Root Organization"
+                },
+                {
+                    "id": "leaf-organization",
+                    "displayName": "Leaf Organization"
+                }
+            ]
+        ]
+    }
+}
