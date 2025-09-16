@@ -1,4 +1,6 @@
-# IoT Real-time Data Engineering Pipeline — IoT Central (Plug & Play) → Stream Analytics → Azure SQL DB → .NET 8.0 Azure Function -> Power BI
+# IoT Real-time Data Engineering Pipeline + ML Anomaly Detection 
+
+## IoT Central (Plug & Play) → Stream Analytics → Azure SQL DB → .NET 8.0 Azure Function -> Power BI
 
 **Executive Summary:** Comprehensive Azure IoT streaming pipeline engineered to ingest simulated Plug & Play devices from **Azure IoT Central**, implementing real-time Stream Analytics with integrated anomaly detection capabilities, persisting both raw and curated data (ADLS Gen2 + Azure SQL), and streaming processed telemetry to a **Power BI** streaming dataset via a **.NET 8 Azure Function**.
 
@@ -219,7 +221,7 @@ CREATE TABLE Telemetry (
 
 ---
 
-![Power BI Dashboard Implementation](docs/power_bi_dashboard.png)
+![Power BI Dashboard Implementation](docs/Power_BI_Dashboard.png)
 
 ---
 
